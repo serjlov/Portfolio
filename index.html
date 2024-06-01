@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <script
+      src="https://kit.fontawesome.com/acd37d0bd2.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="bg-151515 overflow-x-hidden">
+    <div id="app" class="text-white">
+      <div
+        class="container--wrapper w-screen flex justify-center items-center overflow-x-hidden"
+      >
+        <div class="wrapper--inner w-8/12 2xl:w-11/12">
+          <header class="header">
+            <nav class="navbar">
+              <ul class="navbar--ul">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+              </ul>
+            </nav>
+          </header>
+          <main class="main mt-40 xl:mt-24 lg:mt-10 mb-14 sm:mb-10">
+            <div
+              class="about--wrapper flex lg:flex-wrap justify-center items-center"
+            >
+              <img
+                src="/images/me2.jpg"
+                alt="Developer"
+                class="about--image float-left"
+              />
+              <div class="about--me ml-10" id="about">
+                <div class="about--me--texts pt-4">
+                  <h1 class="about--title">Hey, I am Serhii</h1>
+                  <h2 class="about--sub--title">Open to Work</h2>
+                </div>
+                <p class="about--p pt-5 sm:w-11/12">
+                  <span class="span--1 span--0"
+                    >Motivated and adaptable eager to contribute and
+                    learn.</span
+                  >
+                  <span class="span--2 span--0"
+                    >Passionate Web Developer and UX/UI designer.</span
+                  ><span class="span--3 span--0">
+                    Dedicated of Pixel Perfect web.</span
+                  >
+                </p>
+                <div class="about--buttons sm:w-8/12">
+                  <button
+                    class="btn--primary btn--padding"
+                    onclick="window.open('https://www.linkedin.com/in/serhii-antsibor-746827293/')"
+                  >
+                    <i
+                      class="fa-brands fa-linkedin fa-lg"
+                      style="color: #ffffff"
+                    ></i
+                    >LinkedIn
+                  </button>
+                  <button
+                    class="btn--primary btn--padding"
+                    onclick="window.open('https://github.com/serjlov')"
+                  >
+                    <i
+                      class="fa-brands fa-github fa-lg"
+                      style="color: #ffffff"
+                    ></i
+                    >GitHub
+                  </button>
+                  <button class="btn--primary btn--padding">
+                    <a href="mailto:devserhio@gmail.com">
+                      <i
+                        class="fa-solid fa-envelope fa-lg"
+                        style="color: #ffffff"
+                      ></i
+                      >Contact Email</a
+                    >
+                  </button>
+                  <button class="btn--primary btn--padding">
+                    <a
+                      href="https://drive.google.com/file/d/1Z0rPyLnk0u9_Vaw69Gl81o6MA4_1kHpC/view?usp=sharing"
+                    >
+                      <i
+                        class="fa-solid fa-file-lines fa-lg"
+                        style="color: #ffffff"
+                      ></i
+                      >Download CV</a
+                    >
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="education mt-40 sm:mt-10" id="education">
+              <div class="grid">
+                <h1 class="title--universal">
+                  <i
+                    class="fa-solid fa-graduation-cap fa-lg"
+                    style="color: #ffffff"
+                  ></i
+                  >Education
+                </h1>
+                <div class="education--card">
+                  <h2 class="education--date">Sep 2024 - Jul 2027</h2>
+                  <h1 class="education--degree">
+                    Bachelor's in Computer Science at X University in UK
+                  </h1>
+                  <p class="education--desc">
+                    This degree is focused on overall computing interaction with
+                    range of processes.
+                  </p>
+                </div>
+                <div class="education--card">
+                  <h2 class="education--date">Sep 2024 - Jun 2025</h2>
+                  <h1 class="education--degree">
+                    Front-End Developer certification at Step (Nationwide)
+                  </h1>
+                  <p class="education--desc">
+                    This degree is designed for extended Front-End Developer
+                    skills and development of real-world experience.
+                  </p>
+                </div>
+                <div class="education--card">
+                  <h2 class="education--date">Sep 2023 - Jun 2024</h2>
+                  <h1 class="education--degree">
+                    BTEC Level 3: National Higher Certificate at North Kent
+                    College in UK
+                  </h1>
+                  <p class="education--desc">
+                    This degree covers IT topics: IT Systems, Web Development,
+                    Programming and Business.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="language mt-20 sm:mt-10">
+              <h1 class="title--universal">
+                <i class="fa-solid fa-language fa-lg" style="color: #ffffff"></i
+                >Languages
+              </h1>
+              <div class="grid">
+                <div class="language--card">
+                  <h1 class="language">Ukrainian - Native</h1>
+                  <div class="language--line language--line--1"></div>
+                </div>
+                <div class="language--card">
+                  <h1 class="language">
+                    English - Professional Proficiency (C1)
+                  </h1>
+                  <div class="language--line language--line--3"></div>
+                </div>
+                <div class="language--card">
+                  <h1 class="language">Russian - Fluent</h1>
+                  <div class="language--line language--line--2"></div>
+                </div>
+              </div>
+            </div>
+            <div class="skills mt-20 sm:mt-10">
+              <h1 class="title--universal">
+                <i class="fa-solid fa-hashtag fa-lg" style="color: #ffffff"></i
+                >Skills
+              </h1>
+              <div class="grid">
+                <div class="skill-card lg:w-full">
+                  <h1 class="skill-title">Web Development:</h1>
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>JavaScript</span>
+                  <span>Vite</span>
+                  <span>Tailwind</span>
+                  <span>Bootstrap</span>
+                  <span>SCSS</span>
+                </div>
+                <div class="skill-card" id="skills">
+                  <h1 class="skill-title">Frameworks:</h1>
+                  <span>React</span>
+                </div>
+                <div class="skill-card">
+                  <h1 class="skill-title">Design Programs:</h1>
+                  <span>Figma</span>
+                </div>
+                <div class="skill-card">
+                  <h1 class="skill-title">Version Control:</h1>
+                  <span>Git</span>
+                  <span>GitHub</span>
+                </div>
+                <div class="skill-card">
+                  <h1 class="skill-title">Package Managers:</h1>
+                  <span>NPM</span>
+                </div>
+              </div>
+            </div>
+            <div class="education mt-40 sm:mt-10 hidden" id="experience">
+              <div class="grid">
+                <h1 class="title--universal">
+                  <i
+                    class="fa-solid fa-briefcase fa-lg"
+                    style="color: #ffffff"
+                  ></i
+                  >Experience
+                </h1>
+                <div class="education--card">
+                  <h2 class="education--date">Date</h2>
+                  <h1 class="education--degree">Position</h1>
+                  <p class="education--desc">Tasks that I needed to handle.</p>
+                </div>
+              </div>
+            </div>
+            <div class="projects mt-20 sm:mt-10" id="projects">
+              <h1 class="title--universal">
+                <i class="fa-solid fa-code fa-lg" style="color: #ffffff"></i
+                >Projects
+              </h1>
+              <div class="grid">
+                <div class="project--card mt-10">
+                  <h1 class="project-title">Web Application: ToDo List</h1>
+                  <p class="project-p mt-2">
+                    Developed an interactive web application using Vite and
+                    Tailwind. Designed to be a user-friendly, responsive and
+                    fully-functional notes.
+                  </p>
+                  <button
+                    class="btn--primary mt-3"
+                    onclick="window.open('https://github.com/serjlov/todo-app')"
+                  >
+                    <i
+                      class="fa-brands fa-github fa-lg"
+                      style="color: #ffffff"
+                    ></i
+                    >GitHub
+                  </button>
+                  <button
+                    class="btn--primary mt-2 ml-2"
+                    onclick="window.open('https://serjlov.github.io/todo-app/')"
+                  >
+                    <i class="fa-solid fa-desktop" style="color: #ffffff"></i
+                    >Try Live
+                  </button>
+                  <img
+                    src="/images/proj-example-1.png"
+                    alt=""
+                    class="mt-6 rounded-xl shadow-xl shadow-gray-100/5"
+                  />
+                </div>
+                <div class="project--card mt-10">
+                  <h1 class="project-title">Interactive game: Pig</h1>
+                  <p class="project-p mt-2">
+                    Developed an interactive web application using HTML, CSS and
+                    JavaScript. Designed to be a user-friendly, responsive and
+                    fully-functional game called Pig.
+                  </p>
+                  <button
+                    class="btn--primary mt-3"
+                    onclick="window.open('https://github.com/serjlov/pig-game')"
+                  >
+                    <i
+                      class="fa-brands fa-github fa-lg"
+                      style="color: #ffffff"
+                    ></i
+                    >GitHub
+                  </button>
+                  <button
+                    class="btn--primary mt-2 ml-2"
+                    onclick="window.open('https://serjlov.github.io/pig-game/')"
+                  >
+                    <i class="fa-solid fa-desktop" style="color: #ffffff"></i
+                    >Try Live
+                  </button>
+                  <img
+                    src="/images/proj-example-2.png"
+                    alt=""
+                    class="mt-6 rounded-xl shadow-xl shadow-gray-100/5"
+                  />
+                </div>
+                <div class="project--card mt-10">
+                  <h1 class="project-title">Interactive game: Hangman</h1>
+                  <p class="project-p mt-2">
+                    Developed an interactive web application using Vite and
+                    Tailwind. Designed to be a user-friendly, responsive and
+                    fully-functional game called Hangman.
+                  </p>
+                  <button
+                    class="btn--primary mt-3"
+                    onclick="window.open('https://github.com/serjlov/hangman-game')"
+                  >
+                    <i
+                      class="fa-brands fa-github fa-lg"
+                      style="color: #ffffff"
+                    ></i
+                    >GitHub
+                  </button>
+                  <button
+                    class="btn--primary mt-2 ml-2"
+                    onclick="window.open('https://serjlov.github.io/hangman-game/')"
+                  >
+                    <i class="fa-solid fa-desktop" style="color: #ffffff"></i
+                    >Try Live
+                  </button>
+                  <img
+                    src="/images/proj-example-3.png"
+                    alt=""
+                    class="mt-6 rounded-xl shadow-xl shadow-gray-100/5"
+                  />
+                </div>
+              </div>
+            </div>
+          </main>
+          <footer class="footer flex justify-center mb-5">
+            <h1 class="font-light text-xl sm:text-lg">
+              Created by Serhii Antsibor
+            </h1>
+          </footer>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="./src/js/main.js"></script>
+  </body>
+</html>

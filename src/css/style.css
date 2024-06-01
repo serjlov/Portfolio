@@ -1,0 +1,141 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: Rubik;
+    font-weight: 300;
+    font-style: normal;
+    src: url(/fonts/Rubik/Rubik-Light.ttf);
+  }
+  @font-face {
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: normal;
+    src: url(/fonts/Rubik/Rubik-Regular.ttf);
+  }
+  @font-face {
+    font-family: Rubik;
+    font-weight: 600;
+    font-style: normal;
+    src: url(/fonts/Rubik/Rubik-SemiBold.ttf);
+  }
+  @font-face {
+    font-family: Rubik;
+    font-weight: 700;
+    font-style: normal;
+    src: url(/fonts/Rubik/Rubik-Bold.ttf);
+  }
+
+  html {
+    font-family: Rubik, sistem-ui, sans-serif;
+  }
+}
+
+@layer components {
+  .btn--primary {
+    @apply bg-gray-100/20 py-1 px-5 border border-gray-100/40 rounded-full font-light text-lg hover:bg-gray-100/40 duration-300 ease-out;
+  }
+  .header {
+    @apply flex justify-center items-center mt-10;
+  }
+  .navbar {
+    @apply border-2 border-white w-max sm:w-screen p-3 rounded-xl border-opacity-50 px-5;
+  }
+  .navbar--ul {
+    @apply flex flex-row sm:flex-col gap-14 sm:gap-0 sm:justify-center sm:items-center;
+  }
+  .navbar--ul li {
+    @apply text-xl font-normal text-white/70 hover:text-white duration-300 ease-out;
+  }
+  .about--image {
+    border-radius: 75% 25% 25% 75% / 64% 68% 25% 36%;
+    width: 400px;
+  }
+  .about--me--texts {
+    @apply flex flex-row flex-wrap items-center;
+  }
+  .about--title {
+    @apply text-6xl font-bold;
+  }
+  .about--sub--title {
+    @apply bg-bg--sky--blue text-dark--blue--m rounded-xl px-3 py-1 text-xl w-max ml-2 xl:ml-0 xl:mt-3 lg:mt-0 lg:ml-2 sm:mt-2 sm:ml-0 font-semibold;
+  }
+  .about--p {
+    @apply w-full 2xl:w-10/12 xl:w-full;
+  }
+  .span--0 {
+    @apply text-3xl;
+  }
+  .span--1 {
+    @apply text-yellow--m;
+  }
+  .span--2 {
+    @apply text-red--m;
+  }
+  .span--3 {
+    @apply text-blue--m;
+  }
+  .btn--padding {
+    @apply ml-5 2xl:ml-2 xl:ml-0 xl:mb-2;
+  }
+  .fa-brands,
+  .fa-solid {
+    @apply mr-2;
+  }
+  .btn--padding:first-child {
+    @apply ml-0;
+  }
+  .about--buttons {
+    @apply pt-6 w-full xl:w-9/12 lg:w-full sm:w-screen;
+  }
+  .education--date {
+    @apply text-red--m text-2xl;
+  }
+  .education--degree {
+    @apply text-yellow--m text-3xl font-semibold pt-1;
+  }
+  .education--desc {
+    @apply text-2xl pt-2;
+  }
+  .education--card {
+    @apply bg-gray-100/10 mt-10 rounded-xl px-5 py-2 border-2 border-gray-100/50 hover:scale-110 transition-transform duration-300 ease-out;
+  }
+  .title--universal {
+    @apply text-3xl font-semibold;
+  }
+  .language {
+    @apply text-2xl font-normal;
+  }
+  .language--card {
+    @apply mt-5;
+  }
+  .language--line {
+    @apply bg-yellow--m h-1.5 mt-5;
+  }
+  .language--line--1 {
+    @apply w-full;
+  }
+  .language--line--2 {
+    @apply w-9/12;
+  }
+  .language--line--3 {
+    @apply w-10/12;
+  }
+  .skill-title {
+    @apply text-2xl font-normal mt-5 mb-2;
+  }
+  .skill-card span {
+    @apply bg-gray-100/10 lg:flex lg:flex-col lg:w-max lg:ml-0 lg:mt-2 py-1 px-5 ml-2 border border-gray-100/30 rounded-full font-light text-xl hover:bg-gray-100/40 duration-300 ease-out;
+  }
+  .skill-card span:nth-child(2) {
+    @apply ml-0;
+  }
+  .project-title {
+    @apply text-yellow--m text-3xl font-semibold;
+  }
+  .project-p {
+    @apply text-2xl;
+  }
+}
